@@ -38,15 +38,14 @@
         >
           Registrar
         </b-button>
-        <a href="/">
-          <b-button
-            class="button-login"
-            variant="success"
-            type="button"
-          >
-            Voltar para Login
-          </b-button>
-        </a>
+        <b-button
+          href="/"
+          class="button-login"
+          variant="success"
+          type="button"
+        >
+          Voltar para Login
+        </b-button>
       </div>
     </form>
   </div>
