@@ -32,13 +32,12 @@
             </b-button>
             <p><input type="checkbox" checked="checked"> Remember me</p>
             <p>Forgot <a href="#"> password? </a></p>
-            <a href="/cadastro">
-              <b-button
-                variant="danger"
-              >
-                Cadastrar
-              </b-button>
-            </a>
+            <b-button
+              href="/cadastro"
+              variant="danger"
+            >
+              Cadastrar
+            </b-button>
         </div>
     </form>
   </div>
