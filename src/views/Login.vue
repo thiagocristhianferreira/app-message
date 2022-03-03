@@ -27,6 +27,7 @@
               variant="success"
               type="submit"
               :disabled="isNotValid"
+              href="/usuarios"
             >
               Login
             </b-button>
@@ -49,7 +50,7 @@ export default {
     return {
       email: '',
       password: '',
-      isNotValid: true,
+      // isNotValid: true,
     };
   },
   methods: {

@@ -14,6 +14,11 @@ const routes = [
     name: 'Cadastro',
     component: () => import('../views/Cadastro.vue'),
   },
+  {
+    path: '/usuarios',
+    name: 'Usuarios',
+    component: () => import('../views/Usuarios.vue'),
+  },
 ];
 
 const router = new VueRouter({
